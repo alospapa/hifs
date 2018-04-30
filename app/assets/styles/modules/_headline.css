@@ -1,0 +1,15 @@
+.headline {
+    font-weight: 500;
+    color: $mainGreen;
+    font-size: 1.5rem;
+
+    @mixin atSmall {
+    font-size: 2rem;
+        
+    }
+
+    &--no-t-margin {
+        margin-top: 0;
+    }
+
+}

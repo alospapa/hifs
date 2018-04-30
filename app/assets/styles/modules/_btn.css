@@ -1,0 +1,14 @@
+.btn {
+    background-color: $mainGreen;
+    text-decoration: none;
+    padding: .75rem 1.2rem;
+    display: inline-block;
+
+    color: #fff;
+
+    @mixin atSmall {
+        font-size:  1.25rem;
+    }
+
+    
+}

@@ -1,0 +1,44 @@
+.offer {
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden; 
+
+    &--caption {
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.3);
+      color: white;
+      width: 100%;
+      padding: 20px;
+      top: 0;
+
+    }
+
+    &--caption-top {
+      top: 0;
+
+    }
+
+  &--caption-bottom {
+    bottom: 0; 
+  }
+
+
+  img {
+      display: block;
+      max-width: 100%;
+      width: 100%;
+      height: auto; 
+
+      a:hover {
+        transform: scale(.66);
+      }
+
+    }
+
+ 
+
+
+   &__title {
+      margin: 0;
+     }
+}
